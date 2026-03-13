@@ -16,19 +16,28 @@ img {
     border: solid 4px rgb(237, 119, 230);
     border-radius: 7px;
     margin-right: 30px;
-
 }
 
 h1{
     font-family: "courier";
-    background: rgb(229, 167, 229)
+    background: rgb(251, 205, 251);
     padding: 20px;
     text-align: center;
-    width: 680px
+    width: 680px;
     margin: 0 auto;
-    font-size: 1;
+    font-size: 32px;
     border: 6px groove;
+    border-radius: 30px;
+}
 
+h3{
+    width: 108px;
+    border-left: 30px double blueviolet
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 15px;
 
 
 }
+
+
