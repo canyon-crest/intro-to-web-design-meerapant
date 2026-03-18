@@ -1,9 +1,17 @@
 body{
-    background-color: rgb(111, 163, 215);
+    background-color: rgb(255, 233, 255);
     color: rgb(37, 37, 37);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
+
+p{
+
+
+   line-height: 2.5em;
+   margin-left: 30px;
+   margin-right: 20px;
+ }
 
 
 #container{
@@ -183,6 +191,32 @@ hr {
         display:none;
     }
 }
+
+@media (max-width:1200px){
+   #container{
+       width: 1000px;
+   }
+}
+
+
+@media (max-width:992px){
+   #conatiner{
+       width: 100%;
+       margin:0;
+       padding:0;
+       border:none;
+   }
+   body{
+       padding:20px;
+       background-color: rgb(225, 243, 238);
+   }
+}
+@media (max-width:768px){
+   #sidebar{
+       display:none;
+   }
+}
+
 
 .tooltip{
     position:relative;
